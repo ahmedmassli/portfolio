@@ -29,13 +29,10 @@ const LeftSide = () => {
       <div className="left-bottom">
         <ul className="social-links">
           <li>
-            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://www.linkedin.com/in/massli/">LinkedIn</a>
           </li>
           <li>
-            <a href="https://linkedin.com/">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/ahmedmassli">GitHub</a>
           </li>
         </ul>
       </div>

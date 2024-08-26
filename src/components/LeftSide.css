@@ -3,7 +3,7 @@
   background-color: #02150c;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 20px;
   box-sizing: border-box;
   color: white;
@@ -93,11 +93,11 @@
 
 @media (min-width: 640px) {
   /* Responsive styles */
-  .heading-h1 {
-    font-size: 4rem; /* Larger size for larger screens */
+  .custom-heading-h1 {
+    font-size: 3rem; /* Larger size for larger screens */
   }
 
-  .heading-h3 {
+  .custom-heading-h3 {
     font-size: 1.5rem; /* Larger size for larger screens */
   }
 }
