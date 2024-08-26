@@ -1,0 +1,15 @@
+.mouse-follower {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  pointer-events: none; /* This ensures the follower doesn't interfere with other elements */
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 0%,
+    /* Lowered opacity for a dimmer effect */ rgba(255, 255, 255, 0) 80%
+  );
+  mix-blend-mode: screen;
+  transform: translate(-50%, -50%); /* Centers the follower on the cursor */
+  transition: transform 0.1s ease-out;
+}

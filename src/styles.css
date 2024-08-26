@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.app {
+  display: flex;
+}
+
+.left-side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-left {
+  flex: 1;
+}
+
+.bottom-left {
+  flex: 1;
+}
+
+.navbar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  width: 70%;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+}
+
+.intro,
+.socials {
+  padding: 10px;
+}
+
+.socials a {
+  display: block;
+  color: white;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
+
+/* Mouse illumination effect */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.2) 10%,
+    transparent 40%
+  );
+  transition: background 0.1s ease-out;
+  z-index: 1000;
+}
+
+body {
+  cursor: none;
+}
+
+body:hover::before {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.5) 10%,
+    transparent 40%
+  );
+}

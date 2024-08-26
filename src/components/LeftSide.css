@@ -1,0 +1,103 @@
+.left-side {
+  width: 50%;
+  background-color: #02150c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  /* Remove or reduce padding-left */
+  padding-left: 20rem; /* Adjust this value as needed */
+  text-align: left; /* Ensure text is aligned to the left */
+}
+
+.left-top,
+.left-middle,
+.left-bottom {
+  padding: 20px 0;
+  /* Ensure text is aligned to the left in these sections */
+  text-align: left;
+}
+
+.left-middle .vertical-navbar {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-middle .vertical-navbar li {
+  margin: 10px 0;
+}
+
+.left-middle .vertical-navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.left-middle .vertical-navbar li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.left-bottom .social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-bottom .social-links li {
+  margin: 10px 0;
+}
+
+.left-bottom .social-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.left-bottom .social-links li a:hover {
+  color: #61dafb;
+}
+
+.custom-heading-h1 {
+  font-size: 2.25rem; /* Adjust as needed */
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  color: #e2e8f0; /* Equivalent to text-slate-200 */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+}
+
+.custom-heading-h3 {
+  font-size: 1.25rem; /* Adjust as needed */
+  font-weight: 500; /* Medium weight */
+  margin-top: 0 rem; /* Top margin */
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  color: #e2e8f0; /* Equivalent to text-slate-200 */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+}
+
+.brief-intro {
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  color: #e2e8f0; /* Equivalent to text-slate-200 */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+  font-weight: 100; /* Thin */
+}
+
+@media (min-width: 640px) {
+  /* Responsive styles */
+  .heading-h1 {
+    font-size: 4rem; /* Larger size for larger screens */
+  }
+
+  .heading-h3 {
+    font-size: 1.5rem; /* Larger size for larger screens */
+  }
+}

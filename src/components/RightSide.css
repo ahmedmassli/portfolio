@@ -1,0 +1,14 @@
+.right-side {
+  width: 50%;
+  overflow-y: auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #02150c;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}

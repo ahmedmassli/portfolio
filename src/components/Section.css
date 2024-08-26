@@ -1,0 +1,17 @@
+.section {
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100vh; /* Ensures each section fills the viewport height */
+  color: #ffffff; /* Default text color */
+}
+
+.section h2 {
+  font-size: 2em; /* Size of the section titles */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.section p {
+  font-size: 1.2em; /* Size of the section content text */
+  line-height: 1.6; /* Line height for better readability */
+  margin-bottom: 20px; /* Space below the paragraphs */
+}
