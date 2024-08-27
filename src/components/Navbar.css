@@ -1,0 +1,55 @@
+.left-middle .vertical-navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+.left-middle .vertical-navbar li {
+  position: relative; /* Make it relative to position the nav indicator */
+  margin: 10px 0;
+}
+
+/* Navigation item styles */
+.left-middle .vertical-navbar li a {
+  position: relative; /* Needed to position the nav indicator */
+  color: rgb(137, 134, 134);
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px;
+  display: block;
+  font-weight: 700;
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Nav indicator styles */
+.left-middle .vertical-navbar li a .nav-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #61dafb; /* Color of the indicator line */
+  transition: width 0.3s ease; /* Smooth transition for width change */
+}
+
+/* Hover and focus state */
+.left-middle .vertical-navbar li a:hover .nav-indicator,
+.left-middle .vertical-navbar li a:focus .nav-indicator {
+  width: 100%; /* Expand the line to the full width of the item */
+}
+
+.left-middle .vertical-navbar li a:hover,
+.left-middle .vertical-navbar li a:focus {
+  color: white; /* Change text color on hover or focus */
+}
+
+/* Active link state */
+.left-middle .vertical-navbar li a.active {
+  color: white; /* Ensure the active link has the correct text color */
+}
+
+.left-middle .vertical-navbar li a.active .nav-indicator {
+  width: 100%; /* Keep the line expanded for the active link */
+}

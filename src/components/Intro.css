@@ -1,0 +1,40 @@
+/* Heading styles */
+.custom-heading-h1 {
+  font-size: 2.25rem; /* Adjust as needed */
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  color: #e2e8f0; /* Equivalent to text-slate-200 */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+}
+
+.custom-heading-h3 {
+  font-size: 1.25rem; /* Adjust as needed */
+  font-weight: 500; /* Medium weight */
+  margin-top: 0; /* Top margin */
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  color: #e2e8f0; /* Equivalent to text-slate-200 */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+}
+
+.brief-intro {
+  font-size: 1.1em; /* Size of the section content text */
+  line-height: 1.6; /* Line height for better readability */
+  margin-bottom: 20px; /* Space below the paragraphs */
+  color: rgb(160, 160, 160);
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+  font-weight: 400; /* Thin */
+}
+
+/* Responsive styles */
+@media (min-width: 640px) {
+  .custom-heading-h1 {
+    font-size: 3rem; /* Larger size for larger screens */
+  }
+
+  .custom-heading-h3 {
+    font-size: 1.5rem; /* Larger size for larger screens */
+  }
+}

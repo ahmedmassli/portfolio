@@ -1,11 +1,11 @@
 import React from "react";
 import "./Section.css";
 
-const Section = ({ id, title }) => {
+const Section = ({ id, title, content }) => {
   return (
     <section id={id} className="section">
       <h2>{title}</h2>
-      <p>Content for {title}</p>
+      <p> {content}</p>
     </section>
   );
 };

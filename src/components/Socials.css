@@ -1,0 +1,27 @@
+.social-links {
+  list-style-type: none;
+  margin-bottom: 5rem; /* add spacing between items */
+  display: inline-block;
+  float: none;
+}
+
+.social-logo {
+  width: 2rem; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  filter: brightness(0.5);
+}
+
+.social-logo:hover {
+  transform: scale(1.1); /* Slightly enlarge logo on hover */
+  filter: brightness(8);
+}
+
+.social-linkedin {
+  display: inline-block;
+  margin-right: 7rem; /* add spacing between items */
+}
+
+.social-github {
+  display: inline-block;
+}

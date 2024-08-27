@@ -2,13 +2,14 @@ import React from "react";
 import Section from "./Section";
 import "./RightSide.css";
 import "../fonts.css";
+import About from "./About";
 
 const RightSide = () => {
   return (
     <div className="right-side">
-      <Section id="section1" title="Section 1" />
-      <Section id="section2" title="Section 2" />
-      <Section id="section3" title="Section 3" />
+      <About />
+      <Section id="section2" title="Projects" content="fsdf" />
+      <Section id="section3" title="Contact" content="add contact and cv" />
     </div>
   );
 };
