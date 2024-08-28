@@ -8,6 +8,7 @@
   box-sizing: border-box;
   /* Adjust or remove padding-left as needed */
   text-align: left; /* Ensure text is aligned to the left */
+  padding-left: 20rem;
 }
 
 .left-bottom {

@@ -1,12 +1,10 @@
 .section {
   padding: 20px;
   box-sizing: border-box;
-  min-height: 100vh; /* Ensures each section fills the viewport height */
   color: #ffffff; /* Default text color */
 }
 
 .section h2 {
-  margin-bottom: 20px; /* Space below the title */
   font-size: 2rem; /* Adjust as needed */
   font-weight: 700; /* Medium weight */
   margin-top: 0; /* Top margin */
@@ -19,7 +17,6 @@
 .section p {
   font-size: 1.1em; /* Size of the section content text */
   line-height: 1.6; /* Line height for better readability */
-  margin-bottom: 20px; /* Space below the paragraphs */
   color: rgb(160, 160, 160);
   font-family: "Inter", sans-serif; /* Apply the Inter font */
   letter-spacing: -0.015em; /* Equivalent to tracking-tight */

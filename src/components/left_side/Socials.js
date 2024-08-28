@@ -1,7 +1,7 @@
 import React from "react";
 import "./Socials.css";
-import githubLogo from "../assets/logos/icons8-github-30.png"; // Adjust the path as necessary
-import linkedinLogo from "../assets/logos/linkedin-app-white-icon.svg"; // Adjust the path as necessary
+import githubLogo from "../../assets/logos/icons8-github-30.png"; // Adjust the path as necessary
+import linkedinLogo from "../../assets/logos/linkedin-app-white-icon.svg"; // Adjust the path as necessary
 
 const Socials = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Section.css";
 import "./RightSide.css";
-import "../fonts.css";
+import "../../fonts.css";
 
 const About = () => {
   return (

@@ -30,7 +30,7 @@
   bottom: 0;
   height: 2px;
   width: 0;
-  background-color: #61dafb; /* Color of the indicator line */
+  background-color: #2ab536; /* Color of the indicator line */
   transition: width 0.3s ease; /* Smooth transition for width change */
 }
 

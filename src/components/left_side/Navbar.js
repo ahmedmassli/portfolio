@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import "../fonts.css";
+import "../../fonts.css";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("");
