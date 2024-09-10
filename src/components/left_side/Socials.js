@@ -8,7 +8,11 @@ const Socials = () => {
     <div className="left-bottom">
       <ul className="social-links">
         <li className="social-linkedin">
-          <a href="https://www.linkedin.com/in/massli/" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/massli/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
             <img
               src={linkedinLogo}
               alt="LinkedIn Logo"
@@ -17,7 +21,11 @@ const Socials = () => {
           </a>
         </li>
         <li className="social-github">
-          <a href="https://github.com/ahmedmassli" aria-label="GitHub">
+          <a
+            href="https://github.com/ahmedmassli"
+            target="_blank"
+            aria-label="GitHub"
+          >
             <img src={githubLogo} alt="GitHub Logo" className="social-logo" />
           </a>
         </li>

@@ -1,0 +1,45 @@
+#about-me-text {
+  font-size: 15px; /* Size of the section content text */
+  line-height: 1.6; /* Line height for better readability */
+  color: rgb(160, 160, 160);
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#about-me-heading {
+  font-size: 15px; /* Size of the section content text */
+  line-height: 1.6; /* Line height for better readability */
+  color: rgb(160, 160, 160);
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  letter-spacing: -0.015em;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+#section3 #mail-link {
+  display: block; /* Make the link a block element */
+  width: fit-content; /* Ensure the width fits the content */
+  margin: 0 auto; /* Centre the block element horizontally */
+  text-align: center; /* Align the text inside the button */
+  padding: 8px 15px; /* Space inside the link for button-like appearance */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid rgb(55, 165, 71); /* Solid border with color */
+  background-color: rgb(3, 42, 8); /* Button background color */
+  color: rgb(55, 165, 71); /* Text color */
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+#section3 #mail-link:hover {
+  border: 2px solid rgb(3, 42, 8); /* Solid border with color */
+  background-color: rgb(55, 165, 71); /* Background color on hover */
+  color: rgb(3, 42, 8); /* Text color on hover */
+}

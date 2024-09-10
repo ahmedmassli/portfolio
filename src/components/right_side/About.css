@@ -1,0 +1,21 @@
+#about-me-text {
+  font-size: 15px; /* Size of the section content text */
+  line-height: 1.6; /* Line height for better readability */
+  color: rgb(160, 160, 160);
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+  font-weight: 400; /* Thin */
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#about-me-heading {
+  font-size: 23px; /* Adjust as needed */
+  font-weight: 500; /* Medium weight */
+  margin-bottom: 0; /* Top margin */
+  font-family: "Inter", sans-serif; /* Apply the Inter font */
+  color: #ffffff; /* Equivalent to text-slate-200 */
+  letter-spacing: -0.015em; /* Equivalent to tracking-tight */
+  text-decoration: none; /* Ensure no underline on links */
+}

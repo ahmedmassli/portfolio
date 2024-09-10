@@ -14,3 +14,12 @@ html {
   height: 100vh;
   width: 100%;
 }
+
+a:visited {
+  color: inherit; /* Keeps the text color the same as the unvisited link */
+  text-decoration: none; /* Removes the underline */
+}
+
+a {
+  text-decoration: none; /* Removes the underline from all states */
+}
