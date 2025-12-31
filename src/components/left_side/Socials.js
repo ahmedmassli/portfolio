@@ -11,6 +11,7 @@ const Socials = () => {
           <a
             href="https://www.linkedin.com/in/massli/"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
             <img
@@ -24,6 +25,7 @@ const Socials = () => {
           <a
             href="https://github.com/ahmedmassli"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="GitHub"
           >
             <img src={githubLogo} alt="GitHub Logo" className="social-logo" />
